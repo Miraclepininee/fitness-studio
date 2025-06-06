@@ -1,0 +1,37 @@
+.programs {
+    background: #fff;
+    padding: 2em 0;
+  }
+  
+  .program-list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+  
+  .program-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    padding: 1.5em 1em;
+    text-align: center;
+    width: 200px;
+    transition: box-shadow 0.2s;
+  }
+  
+  .program-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+  
+  .program-card h3 {
+    font-size: 1.1em;
+    color: #222;
+  }
+  
+  .program-card:hover {
+    box-shadow: 0 4px 24px rgba(255,204,41,0.18);
+  }
+  

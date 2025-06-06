@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Programs.css";
+import "./Programs.css";
 
 const programs = [
     { name: "Fitness Studio", img: "/images/fitness.jpg" },
